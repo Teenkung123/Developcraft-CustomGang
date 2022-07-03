@@ -1,0 +1,8 @@
+name: Developcraft-Gang
+version: '${version}'
+main: com.teenkung.devgang.DevGang
+api-version: 1.18
+prefix: DevGang
+authors: [ Teenkung123 ]
+description: a custom gang plugin for Developcraft Network Server
+website: http://mc-developcraft.net

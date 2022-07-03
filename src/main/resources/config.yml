@@ -1,0 +1,47 @@
+
+#Only support MySQL
+Storage:
+  #MySQL Database host
+  Host: localhost
+  #MySQL Database port
+  Port: 3306
+  #MySQL Database username
+  Username: minecraft
+  #MySQL Database password
+  Password: minecraft
+  #MySQL Database SSL
+  SSL: false
+  #MySQL Database Database Name
+  Database: database
+  #MySQL Database TablePrefix
+  TablePrefix: DevGang_
+
+
+Options:
+  #Maximum character allowed for gang name (Default: 16)
+  MaxGangNameLength: 16
+  #Should gang name allowed using color code? (Default: true)
+  AllowedColorCode: true
+  #Should gang name limit include color code or not (Default: false)
+  IncludeColorCode: false
+  #Gang Rank Name
+  RankName:
+    Owner: 'Owner'
+    CoOwner: 'Co-Owner'
+    Moderator: 'Moderator'
+    Trust: 'Trust'
+    Member: 'Member'
+
+  #Rank required for each action
+  RankPermissions:
+    Promote: 'CoOwner'
+    Demote: 'CoOwner'
+    Ban: 'Moderator'
+    Kick: 'Moderator'
+    Upgrade: 'Member'
+    GangChat: 'Member'
+
+  #UpgradeCost using Vault Currency (Default: 1000000)
+  UpgradeCost: 1000000
+  #Maximum Level a Rank can Upgrade (Default: 5)
+  MaxLevel: 5
