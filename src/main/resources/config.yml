@@ -41,7 +41,11 @@ Options:
     Upgrade: 'Member'
     GangChat: 'Member'
 
+  #Should player able to upgrade rank level? (default: true)
+  AllowUpgrade: true
   #UpgradeCost using Vault Currency (Default: 1000000)
   UpgradeCost: 1000000
   #Maximum Level a Rank can Upgrade (Default: 5)
   MaxLevel: 5
+  #Maximum player can join the gang set to -1 for infinite (Default: 10)
+  MaxPlayer: 10
